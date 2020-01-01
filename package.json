@@ -1,0 +1,15 @@
+{
+  "name": "backstop-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "backstop test",
+    "approve": "backstop approve",
+    "reference": "backstop reference",
+    "report": "backstop openReport",
+    "start": "backstop remote"
+  },
+  "author": "wesselbaum",
+  "license": "MIT"
+}
