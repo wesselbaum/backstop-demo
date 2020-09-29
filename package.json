@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "backstop test --config=\"backstop_data/config/config.js\"",
+    "test": "backstop test --config=\"backstop_data/config/config.js\" | grep --color=always -Pv '^(Starting|Cookie|.*See|\\d{4})'",
     "approve": "backstop approve --config=\"backstop_data/config/config.js\"",
     "reference": "backstop reference --config=\"backstop_data/config/config.js\"",
     "report": "backstop openReport --config=\"backstop_data/config/config.js\"",
-    "start": "backstop remote"
+    "start": "backstop remote --config=\"backstop_data/config/config.js\""
   },
   "author": "wesselbaum",
   "license": "MIT"

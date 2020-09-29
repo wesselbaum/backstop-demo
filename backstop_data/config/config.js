@@ -39,8 +39,8 @@ let backstopConfiguration = {
     "engineOptions": {
         "args": ["--no-sandbox"]
     },
-    "asyncCaptureLimit": 5,
-    "asyncCompareLimit": 50,
+    "asyncCaptureLimit": 4,
+    "asyncCompareLimit": 40,
     "debug": false,
     "debugWindow": false
 };
